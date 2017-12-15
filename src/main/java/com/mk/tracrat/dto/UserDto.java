@@ -121,10 +121,12 @@ public class UserDto {
 
 	@Override
 	public String toString() {
-		return "command [org_id=" + org_id + ", first_name=" + first_name + ", last_name=" + last_name + ", age=" + age
-				+ ", gender=" + gender + ", mobile_number=" + mobile_number + ", created_date=" + created_date
+		return "UserDto [user_id=" + user_id + ", org_id=" + org_id + ", first_name=" + first_name + ", last_name="
+				+ last_name + ", age=" + age + ", gender=" + gender + ", mobile_number=" + mobile_number
+				+ ", superUserFlag=" + superUserFlag + ", status=" + status + ", created_date=" + created_date
 				+ ", created_by=" + created_by + ", modified_date=" + modified_date + ", modified_by=" + modified_by
 				+ "]";
 	}
 
+	
 }

@@ -51,5 +51,11 @@ public class UserPermissionDto {
 	public void setModified_by(String modified_by) {
 		this.modified_by = modified_by;
 	}
+	@Override
+	public String toString() {
+		return "UserPermissionDto [permission_id=" + permission_id + ", role_id=" + role_id + ", status=" + status
+				+ ", created_date=" + created_date + ", created_by=" + created_by + ", modified_date=" + modified_date
+				+ ", modified_by=" + modified_by + "]";
+	}
 
 }
